@@ -6,7 +6,7 @@
 The easiest way to understand how the web works today is to walk through how it changed over time. Everything started with a world where the *server did all the thinking*. Whenever a user clicked something, the browser waited while the server rebuilt the entire page from zero and sent it back fully formed. This is the classic **Server-Side Rendering** era.. simple, predictable, but slow and not very interactive.
 
 <p align="center">
-  <img src="img/meme.png"  width="350"/>
+  <img src="img/meme.png"  width="550"/>
 </p>
 
 Things shifted when **React** showed up and said: “Let the browser handle it.” This was the beginning of **the SPA mindset** (*Single-Page Applications*). Instead of rebuilding whole pages, React loaded the app once and let JavaScript update everything on the fly. Navigation became instant and smooth, and the web finally felt like an app. But with that speed came two problems: the first load became heavy, and search engines couldn’t easily understand pages built entirely in the browser.
